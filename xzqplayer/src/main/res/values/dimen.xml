@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="player_progam_title_size">18sp</dimen>
+    <dimen name="player_progam_backlook_size">17.5sp</dimen>
+    <dimen name="player_progam_item_height">64dp</dimen>
+    <dimen name="player_btn_play_width">28dp</dimen>
+    <dimen name="player_btn_pause_with">40dp</dimen>
+</resources>

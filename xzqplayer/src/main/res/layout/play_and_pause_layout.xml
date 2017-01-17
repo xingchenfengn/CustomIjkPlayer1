@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/player_thumb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/player_volume_bg"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/player_load_img"
+        android:layout_width="@dimen/player_btn_pause_with"
+        android:layout_height="@dimen/player_btn_pause_with"
+        android:layout_gravity="center"
+        android:src="@mipmap/loading_video"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/player_pause_img"
+        android:layout_width="@dimen/player_btn_pause_with"
+        android:layout_height="@dimen/player_btn_pause_with"
+        android:layout_gravity="center"
+        android:src="@mipmap/new_pause_video"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/player_play_img"
+        android:layout_width="@dimen/player_btn_pause_with"
+        android:layout_height="@dimen/player_btn_pause_with"
+        android:layout_gravity="center"
+        android:src="@mipmap/new_play_video"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/player_replay_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/player_replay_img"
+            android:layout_width="@dimen/player_btn_pause_with"
+            android:layout_height="@dimen/player_btn_pause_with"
+            android:src="@mipmap/player_replay_unsel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="3dp"
+            android:text="重播"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </LinearLayout>
+</FrameLayout>
